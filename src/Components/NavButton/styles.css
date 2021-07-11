@@ -1,0 +1,24 @@
+.NavButton.active{
+  background-color: lime !important;
+}
+
+.NavButton {
+  background-color: #3b3838;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: opacity 0.2s;
+  cursor: pointer;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.NavButton:hover{
+  background-color: black;
+}

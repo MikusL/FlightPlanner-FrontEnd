@@ -1,0 +1,155 @@
+html{
+  background: rgb(0,212,255);
+  background: radial-gradient(circle, rgba(0,212,255,1) 0%, rgba(9,14,125,1) 78%, rgba(0,0,0,1) 100%);
+}
+
+.airportObject {
+  background-color: #3b3838;
+  color: white;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  width: 500px;
+  height: 250px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.airportObject p{
+  margin: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.searchBar{
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 25px;
+  height: 30px;
+  width: 530px;
+}
+
+.smallerSearchBar{
+  margin-left: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 225px;
+}
+
+.flightObject {
+  background-color: #3b3838;
+  color: white;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  width: 500px;
+  height: 500px;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.flightObject p{
+  margin: 0px;
+  overflow: hidden;
+}
+
+.loginContainer{
+  background-color: #3b3838;
+  color: white;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  width: 300px;
+  height: 250px;
+  padding: 10px 20px;
+  font-size: 50px;
+}
+
+.loginInput{
+  height: 30px;
+  width: 225px;
+}
+
+.getFlight{
+  background-color: #3b3838;
+  color: white;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  width: 750px;
+  height: 250px;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.getFlight p{
+  margin: 10px;
+  overflow: hidden;
+}
+
+.addFlight{
+  background-color: #3b3838;
+  color: white;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  width: 1100px;
+  height: 250px;
+  padding: 10px 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+
+.deleteFlight{
+  background-color: #3b3838;
+  color: white;
+  margin-top: 25px;
+  margin-left: 45px;
+  margin-bottom: 25px;
+  margin-right: 25px;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 500px;
+  height: 150px;
+  padding: 10px 0px;
+}
+
+.adminInputBox{
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 30px;
+  width: 225px;
+}
+
+.returnedFlight{
+  display: inline-flex;
+}
+
+.returnedFlightDetails{
+  font-size: medium;
+  margin-left: 40px;
+}
+
+.addFlightInput{
+  font-size: medium;
+}

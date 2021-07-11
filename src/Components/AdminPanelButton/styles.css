@@ -1,0 +1,16 @@
+.AdminPanelButton {
+  background-color: #3b3838;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 600;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 45px;
+}
+
+.AdminPanelButton:hover{
+background-color: black;
+}
